@@ -1,0 +1,45 @@
+{
+  "name": "example-layered-express-server",
+  "version": "0.0.0",
+  "description": "Example of express server with layered architecture",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "start-prod": "cross-env NODE_ENV=production node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cherviakov/example-layered-express-server.git"
+  },
+  "keywords": [
+    "express",
+    "server",
+    "layered-architecture",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cherviakov/example-layered-express-server/issues"
+  },
+  "homepage": "https://github.com/Cherviakov/example-layered-express-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.8.3",
+    "morgan": "^1.9.1",
+    "rooty": "^2.0.0",
+    "safe-regex": "^2.1.1",
+    "winston": "^3.2.1"
+  }
+}
